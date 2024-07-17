@@ -1,0 +1,24 @@
+.Main{
+    height: 100%;
+}
+
+.Title{
+    color: white;
+    text-align: center;
+    padding-top: 25vh;
+    font-size: 7rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 7px #444
+}
+
+.kerdoiv {
+    color: white;
+    border: 1px solid white;
+    border-radius: 22px;
+    padding: 5px 7px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 10%;
+    background-color: rgba(44,44,44,0.6);
+}

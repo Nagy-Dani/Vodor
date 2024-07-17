@@ -1,0 +1,12 @@
+.App {
+  margin: 0;
+  padding: 6px;
+
+  background-image: url("../images/bg1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 200vh;
+  color: black;
+  font-family: 'Marcellus';
+}
