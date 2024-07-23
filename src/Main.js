@@ -26,7 +26,7 @@ const Main = () => {
             <section id="team" className="section2">
                 <h2 className="h2Dividers">our team</h2>
                 <Hero/>
-                <p className="pBase">
+                <p className="pBase p1">
                     We are all first year students at Elte faculty of informatics. This project is our participation in the Innovation lab that is hosted by our university. 
                 </p>
             </section>
@@ -39,7 +39,7 @@ const Main = () => {
                 <p className="pBase">
                     To support our development please fill this form out. 
                     <br/><br/>
-                    
+                    <a href="" className="form" target="_blank">Google Form</a>
                 </p>
             </section>
         </div>

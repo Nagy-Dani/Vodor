@@ -40,12 +40,21 @@
     padding-bottom: 15vh;
 }
 
+.p1 {
+    padding-top: 13vh;
+}
+
 a {
     color: black;
 }
 
 a:hover {
     color: #aaa;
+}
+
+.form {
+    color: black;
+    text-decoration: underline;
 }
 
 /* Wave */
