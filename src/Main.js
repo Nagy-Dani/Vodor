@@ -39,7 +39,8 @@ const Main = () => {
                 <p className="pBase">
                     To support our development please fill this form out. 
                     <br/><br/>
-                    <a href="" className="form" target="_blank">Google Form</a>
+                    <a href="https://forms.gle/JiJ5th8feSyhDaWN9
+" className="form" target="_blank" rel="noreferrer">Google Form</a>
                 </p>
             </section>
         </div>
