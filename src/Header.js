@@ -1,19 +1,19 @@
 import React from "react";
 import './css/Header.css';
-import Logo from './images/Logo.png';
+import logo from './images/Logo.png';
+import './css/Media.css';
 
-function Header(){
+const Header = ({ids}) => {
     return(
-        <div className="header-div">
-            <div className="logo">
-                <img src={Logo} alt="logo"/>
-            </div>
-            <nav className="main-nav">
-                <ul>
-                    <li><a>About us</a></li>
-                    <li><a>What we offer</a></li>
-                </ul>
-            </nav>
+        <div className="Header">
+            <img src={logo} alt='Company Logo' className="logo"></img>
+            <ul>
+                {ids.map((id, index) => (
+                    <li key={index}>
+                        <a href={`#${id}`}>{id}</a>
+                    </li>
+                ))}
+            </ul>
         </div>
     );
 }

@@ -1,24 +1,71 @@
-.Main{
-    height: 100%;
+/* Main styling */
+.Main {
+    color: black;
+    font-family: "Major Mono Display";
 }
 
-.Title{
+/* Section specific styling */
+.section1 {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background-image: url("../images/bg2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Individual styling */
+.welcome {
     color: white;
+    font-size: 8.5rem;
+    position: absolute;
+    right: 10%;
+    top: 38vh;
+    transform: translateX(0);
+}
+
+.h2Dividers {
     text-align: center;
-    padding-top: 25vh;
-    font-size: 7rem;
-    font-weight: bolder;
-    text-shadow: 2px 2px 7px #444
+    font-size: 5rem;
+    padding: 15vh 0;
 }
 
-.kerdoiv {
-    color: white;
-    border: 1px solid white;
-    border-radius: 22px;
-    padding: 5px 7px;
-    display: block;
+.pBase {
+    font-family: "Fira Mono", monospace;
+    font-size: 1.3rem;
+    width: 40vw;
+    text-align: center;
     margin: auto;
-    text-align: center;
-    width: 10%;
-    background-color: rgba(44,44,44,0.6);
+    padding-bottom: 15vh;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #aaa;
+}
+
+/* Wave */
+.custom-shape-divider-bottom-1721408716 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1721408716 svg {
+    position: relative;
+    display: block;
+    width: calc(131% + 1.3px);
+    height: 128px;
+}
+
+.custom-shape-divider-bottom-1721408716 .shape-fill {
+    fill: #FFFFFF;
 }

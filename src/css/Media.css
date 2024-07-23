@@ -1,0 +1,55 @@
+/* Media Queries */
+@media (max-width: 768px) {
+    .welcome {
+        font-size: 5rem;
+        right: 50%;
+        top: 40vh;
+        transform: translateX(50%);
+    }
+
+    .h2Dividers {
+        font-size: 3rem;
+        padding: 10vh 0;
+    }
+
+    .pBase {
+        width: 80vw;
+        font-size: 1rem;
+        padding-bottom: 10vh;
+    }
+
+    .Header ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome {
+        font-size: 3rem;
+        top: 25vh;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .h2Dividers {
+        font-size: 2rem;
+        padding: 5vh 0;
+    }
+
+    .pBase {
+        width: 90vw;
+        font-size: 0.9rem;
+        padding-bottom: 5vh;
+    }
+
+    .profile {
+        height: 120px;
+        width: 120px;
+    }
+}
