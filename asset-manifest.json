@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Vodor/static/css/main.46d84827.css",
+    "main.js": "/Vodor/static/js/main.f65487cd.js",
+    "static/js/453.9c0fda21.chunk.js": "/Vodor/static/js/453.9c0fda21.chunk.js",
+    "static/media/LoraCica.jpg": "/Vodor/static/media/LoraCica.1ac92e6b7881770f7a5e.jpg",
+    "static/media/DaniCica.jpg": "/Vodor/static/media/DaniCica.8ea1205ae25873cc5a25.jpg",
+    "static/media/PetiCica.jpg": "/Vodor/static/media/PetiCica.75afdd93ee2a519111b2.jpg",
+    "static/media/bg2.png": "/Vodor/static/media/bg2.f597d4a51e94c7e8fb23.png",
+    "static/media/AnnaCica.jpg": "/Vodor/static/media/AnnaCica.fd82be89c86592fc087b.jpg",
+    "static/media/Logo.png": "/Vodor/static/media/Logo.681c4b3d99f2d2051a38.png",
+    "index.html": "/Vodor/index.html",
+    "main.46d84827.css.map": "/Vodor/static/css/main.46d84827.css.map",
+    "main.f65487cd.js.map": "/Vodor/static/js/main.f65487cd.js.map",
+    "453.9c0fda21.chunk.js.map": "/Vodor/static/js/453.9c0fda21.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46d84827.css",
+    "static/js/main.f65487cd.js"
+  ]
+}
