@@ -1,6 +1,5 @@
 import React from "react";
 import './css/Hero.css';
-import pp from './images/placeholder.png';
 
 import dc from './images/DaniCica.jpg';
 import ac from './images/AnnaCica.jpg';
